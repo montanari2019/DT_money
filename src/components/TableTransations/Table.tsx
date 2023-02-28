@@ -43,23 +43,7 @@ export function TableTransations() {
             <td>25/12/2022</td>
           </tr>
 
-          <tr>
-            <td width="50%">Hamburguer</td>
-            <td>
-              <PriceHighLight variant="outcome">-R$ 50,00</PriceHighLight>
-            </td>
-            <td>Venda</td>
-            <td>25/12/2022</td>
-          </tr>
-
-          <tr>
-            <td width="50%">Hamburguer</td>
-            <td>
-              <PriceHighLight variant="outcome">-R$ 50,00</PriceHighLight>
-            </td>
-            <td>Venda</td>
-            <td>25/12/2022</td>
-          </tr>
+          
         </tbody>
 
         

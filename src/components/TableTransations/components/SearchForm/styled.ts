@@ -8,7 +8,7 @@ export const SearchFormContainer = styled.form`
     input{
         flex: 1;
         border-radius: 6px;
-        border : 0;
+        border: 0;
         background: ${props => props.theme["gray-900"]};
         color: ${props => props.theme["gray-300"]};
         padding: 1rem;
@@ -16,6 +16,10 @@ export const SearchFormContainer = styled.form`
         &::placeholder{
             color: ${props =>props.theme["gray-500"]};
         }
+
+        /* &:focus{
+            outline: solid 1px ${props => props.theme["green-500"]};
+        } */
 
 
     }
@@ -32,6 +36,7 @@ export const SearchFormContainer = styled.form`
          color: ${props => props.theme["gray-300"]};
          font-weight: bold;
          border-radius: 6px;
+         cursor: pointer;
 
          &:hover{
             background: ${props => props.theme["green-500"]};
