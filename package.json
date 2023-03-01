@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:server":"json-server server.json -p 3335 -w -d 1000",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
