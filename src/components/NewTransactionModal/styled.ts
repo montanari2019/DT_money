@@ -57,6 +57,11 @@ export const Content = styled(Dialog.Content)`
                 background: ${props => props.theme["gray-700"]};
                 transition: background-color 0.2s;
             }
+
+            &:disabled{
+                opacity: 0.5;
+                cursor: not-allowed;
+            }
         }
 
     }
