@@ -1,21 +1,44 @@
 {
-    "transactions": [
-        {
-            "id": 1,
-            "description": "Desenvolvimento de site",
-            "type": "income",
-            "category": "venda",
-            "price":14000,
-            "createdAt":"2023-03-01T13:11:11.873Z"
-
-        },
-        {
-            "id": 2,
-            "description": "lanche",
-            "type": "outcome",
-            "category": "alimentação",
-            "price":50,
-            "createdAt":"2023-03-01T01:11:25.873Z"
-        }
-    ]
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "venda",
+      "price": 14000,
+      "createdAt": "2023-03-01T13:11:11.873Z"
+    },
+    {
+      "id": 2,
+      "description": "lanche",
+      "type": "outcome",
+      "category": "alimentação",
+      "price": 50,
+      "createdAt": "2023-03-01T01:11:25.873Z"
+    },
+    {
+      "id": 3,
+      "description": "lanche",
+      "type": "outcome",
+      "category": "alimentação",
+      "price": 100,
+      "createdAt": "2023-03-01T01:11:25.873Z"
+    },
+    {
+      "id": 4,
+      "description": "lanche",
+      "type": "outcome",
+      "category": "alimentação",
+      "price": 150,
+      "createdAt": "2023-03-01T01:11:25.873Z"
+    },
+    {
+      "description": "PC gamer",
+      "category": "Gamer",
+      "price": 15214,
+      "type": "outcome",
+      "createdAt": "2023-03-03T18:18:56.535Z",
+      "id": 5
+    }
+  ]
 }
