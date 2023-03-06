@@ -1,15 +1,18 @@
-import { useContext, useEffect, useState } from "react";
+
 import { TransactionContext } from "../../context/Transactions";
-import { BaseUrl } from "../../services/Api";
+
 import { dateFromatter, priceFromatter } from "../../utils/formatter";
 import { SearchForm } from "./components/SearchForm/SearchForm";
 import { PriceHighLight, TableTransationsContainer, TransationsTable } from "./styled";
+import {useContextSelector} from "use-context-selector"
 
 
 
 export function TableTransations() {
 
-  const { transactions } = useContext(TransactionContext)
+  const transactions = useContextSelector(TransactionContext, (context) =>{
+    return context.transactions
+  })
   return (
     <TableTransationsContainer>
         <SearchForm/>

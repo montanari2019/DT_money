@@ -3,6 +3,7 @@ import * as Dialog from "@radix-ui/react-dialog";
 import { Controller, useForm } from "react-hook-form";
 import * as zod from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
+import {useContextSelector} from "use-context-selector"
 
 import {
   Overlay,
@@ -11,7 +12,6 @@ import {
   TransactionType,
   TransactionTypeButton,
 } from "./styled";
-import { useContext } from "react";
 import { TransactionContext } from "../../context/Transactions";
 
 const newTransactionFormSchema = zod.object({
@@ -30,7 +30,11 @@ export function NewTransactionModal() {
     resolver: zodResolver(newTransactionFormSchema)
   })
 
-  const { CreateNewTransaction } = useContext(TransactionContext)
+
+
+  const CreateNewTransaction = useContextSelector(TransactionContext, (context) =>{
+    return  context.CreateNewTransaction
+  })
 
   async function handleCreateNewTransaction(data: NewTransactionFormInputs){
     await CreateNewTransaction(data)

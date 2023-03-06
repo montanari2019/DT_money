@@ -39,6 +39,14 @@
       "type": "outcome",
       "createdAt": "2023-03-03T18:18:56.535Z",
       "id": 5
+    },
+    {
+      "description": "Designer",
+      "category": "Frela",
+      "price": 2000,
+      "type": "income",
+      "createdAt": "2023-03-06T12:01:40.568Z",
+      "id": 6
     }
   ]
 }
