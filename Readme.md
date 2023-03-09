@@ -33,7 +33,7 @@
 # Sobre
 <p dir="auto">Projeto foi desenvolvido durante o curso ignite ministrado pela <a target="_blank" href="https://www.rocketseat.com.br/">Rocketseat💜</a>, se trata de uma aplicação para cadastrar registros de entradas e saidas monetárias.</p>
 
-<p> <a target="_blank" href="#">Click Aqui para acessar a alicação</a> </p>
+<!-- <p> <a target="_blank" href="#">Click Aqui para acessar a alicação</a> </p> -->
 
 ------------------------------------------
 
